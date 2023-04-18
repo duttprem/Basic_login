@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" id="check">
+        <div class="login form">
+            <header>Login</header>
+            <form action="#" name="myform" onsubmit="return validateForm()">
+                <input type="text" placeholder="Enter your Name" name="name">
+                <input type="email" placeholder="Enter your Email" name="email">
+                <input type="password" placeholder="Enter your Password" name="password">
+                <a href="#">Forget Password?</a>
+                <input type="submit" class="button" value="Login">
+            </form>
+            <div class="signup">
+                <span class="signup">Don't have an account?
+
+                    <label for="check">Signup</label>
+                </span>
+            </div>
+        </div>
+        <div class="registration form">
+            <header>Signup</header>
+            <form action="#" name="f1" onsubmit="return ConfirmForm()">
+                <input type="text" placeholder="Enter Your Email" name="email">
+                <input type="password" placeholder="Create a Password" name="password" >
+                <input type="password" placeholder="Confirm your password" >
+                <input type="submit" class="button" value="Signup">
+            </form>
+            <div class="signup">
+                <span class="signup">Already have anccount?
+                    <label for="check">Login</label>
+                </span>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
